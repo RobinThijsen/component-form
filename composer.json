@@ -1,0 +1,49 @@
+{
+    "name": "robinthijsen/component_form",
+    "description": "A Laravel package to create forms with components",
+    "keywords": [
+        "laravel",
+        "form",
+        "component",
+        "livewire",
+        "package"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Robinthijsen\\ComponentForm\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest"
+    },
+    "authors": [
+        {
+            "name": "Robin",
+            "email": "robin.t@live.be",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Robinthijsen\\ComponentForm\\ComponentFormServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "v11.10.0",
+        "spatie/laravel-package-tools": "1.16.4"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34",
+        "pestphp/pest-plugin-arch": "^2.7",
+        "pestphp/pest-plugin-laravel": "^2.3"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
