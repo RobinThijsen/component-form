@@ -12,8 +12,7 @@ class ComponentFormServiceProvider extends PackageServiceProvider
     public function configurePackage(Package $package): void
     {
         $package->name('component-form')
-            ->hasViews()
-            ->hasCommand(ComponentFormCommand::class);
+            ->hasViews();
     }
 
     public function packageBooted(): void
