@@ -1,5 +1,5 @@
 {
-    "name": "robinthijsen/component-form",
+    "name": "robinthijsen/component_form",
     "description": "A Laravel package to create forms with components",
     "keywords": [
         "laravel",
