@@ -1,5 +1,5 @@
 {
-    "name": "robinthijsen/component_form",
+    "name": "robinthijsen/component-form",
     "description": "A Laravel package to create forms with components",
     "keywords": [
         "laravel",
@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Robinthijsen\\ComponentForm\\": "src/"
+            "RobinThijsen\\ComponentForm\\": "src/"
         }
     },
     "scripts": {
@@ -26,7 +26,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Robinthijsen\\ComponentForm\\ComponentFormServiceProvider"
+                "RobinThijsen\\ComponentForm\\ComponentFormServiceProvider"
             ]
         }
     },

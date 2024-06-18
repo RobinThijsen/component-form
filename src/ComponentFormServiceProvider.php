@@ -3,7 +3,6 @@
 namespace RobinThijsen\ComponentForm;
 
 use Illuminate\Support\Facades\Blade;
-use RobinThijsen\ComponentForm\Commands\ComponentFormCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 

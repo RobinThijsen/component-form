@@ -1,6 +1,6 @@
 <?php
 
-namespace RobinThijsen\ComponentForm\Commands;
+namespace Robinthijsen\ComponentForm\Commands;
 
 use Illuminate\Console\Command;
 
